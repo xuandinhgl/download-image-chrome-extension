@@ -1,8 +1,8 @@
 {
   "name": "download-img",
   "displayName": "Download img",
-  "version": "0.0.0",
-  "description": "A basic Plasmo extension.",
+  "version": "0.0.1",
+  "description": "Down load image from website",
   "author": "dinhtx",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,9 +10,11 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/storage": "^0.13.0",
     "plasmo": "0.59.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
     "@plasmohq/prettier-plugin-sort-imports": "3.6.0",

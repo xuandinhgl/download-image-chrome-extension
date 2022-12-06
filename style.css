@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .d-btn {
+        @apply border px-3 py-1 rounded bg-slate-300 border-gray-500 hover:bg-slate-500 transition-all ease-in-out hover:text-white disabled:pointer-events-none disabled:bg-gray-200
+    }
+
+    .img-frame {
+        @apply border p-2 rounded border-gray-500 w-full max-h-80 overflow-y-auto mb-2
+    }
+
+    .img-row {
+        @apply border-b flex pb-1 items-center
+    }
+
+    .img-item {
+        @apply w-1/5 object-cover rounded border-gray-300 mr-3
+    }
+
+    .img-link {
+        @apply break-all mr-3 w-auto
+    }
+
+    .d-input {
+        @apply grow border border-gray-300 rounded p-1
+    }
+}
